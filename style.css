@@ -1,17 +1,47 @@
+html {
+	--un: 1vmax;
+	--c1: #008eff;
+	--c2: #007ce0;
+	--c3: #28a0ff;
+	--c4: #0071ca;
+	--gp: 50%/calc(var(--un) * 10) calc(var(--un) * 10);
+	height: 100vh;
+	background-color: var(--c1);
+	background: 					
+		repeating-conic-gradient(from 90deg at 75% 75% , var(--c4) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 180deg at 50% 75% , var(--c1) 0% 12.5%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 135deg at 62.5% 62.5% , var(--c4) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 134.5deg at 25% 75% , var(--c1) 0% 12.65%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 135deg at 12.5% 62.5% , var(--c4) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 225deg at 12.5% 62.5% , var(--c3) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 225deg at 25% 50% , var(--c2) 0% 12.5%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 90deg at 75% 75% , var(--c1) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 135deg at 50% 50% , var(--c1) 0% 37.5%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 225deg at 75% 50% , var(--c2) 0% 12.5%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 45deg at 62.5% 62.5% , var(--c3) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 90deg at 75% 25% , var(--c3) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 45deg at 62.5% 12.5%, var(--c3) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from -45deg at 62.5% 12.5%, var(--c4) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 45deg at 50% 25%, var(--c2) 0% 12.5%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from -45deg at 12.5% 12.5%, var(--c4) 0% 25%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from 0deg at 0% 25%, var(--c3) 0% 12.50%, #fff0 0% 100%) var(--gp),
+		repeating-conic-gradient(from -90deg at 25% 25%, var(--c2) 0% 12.50%, #fff0 0% 100%) var(--gp),
+		repeating-linear-gradient(180deg, var(--c1) 0 25%, var(--c2) 0 50%, var(--c1) 0 100% ) var(--gp);
+}
 body{
     font-family: 'PI Sans', sans-serif;
-    background-color: rgb(218, 225, 228);
+    
     margin: 0px;
     
 }
 .hello_sir-mem{
     position: absolute;
-    left: 840px;
+    left: 852px;
     top: 90px;
 }
 .hello{
-    color: rgb(226, 221, 215);
-    background-color:  rgb(18, 151, 192);
+    color: rgb(221, 217, 212);
+    
     height: 560px;
     width: 1863px;
 }
@@ -27,15 +57,7 @@ body{
     left: 840px;
     top: 550px;
 }
-.next_inf{
-    color: rgb(226, 221, 215);
-    background-color: rgb(13, 219, 133);
-    height: 70px;
-    width: 200px;
-    position: absolute;
-    left: 800px;
-    top: 400px;
-}
+
 .big_phot{
     height: 600px;
     width: 700px;
@@ -59,7 +81,7 @@ body{
     position: absolute;
     left: 820px;
     top: 1400px;
-    color: rgb(226, 221, 215);
+    color: rgb(224, 220, 214);
     background-color: rgb(13, 219, 133);
     height: 70px;
     width: 200px;
@@ -67,12 +89,12 @@ body{
 .oth{
     position: absolute;
     left: 1750px;
-    top: 1545px;
+    top: 1535px;
 }
 .ers{
     position: absolute;
     left: 1650px;
-    top: 1545px;
+    top: 1535px;
 }
 .connect{
     border: none;
@@ -106,12 +128,12 @@ body{
 .ab_me{
     position: absolute;
     left: 1400px;
-    top: 140px;
+    top: 160px;
 }
 .ab_me_inf{
     position: absolute;
     left: 1400px;
-    top: 180px;
+    top: 200px;
 }
 .abo{
     position: absolute;
@@ -119,7 +141,7 @@ body{
     top: 160px;
 }
 .works{
-    color: rgb(0, 4, 7);
+    color: rgb(34, 32, 32);
     position: absolute;
     left: 870px;
     top: 600px;
@@ -159,17 +181,17 @@ body{
 .ab_me_inff{
     position: absolute;
     left: 1400px;
-    top: 210px;
+    top: 230px;
 }
 .ab_me_infff{
     position: absolute;
     left: 1400px;
-    top: 240px;
+    top: 260px;
 }
 .ab_me_inffff{
     position: absolute;
     left: 1400px;
-    top: 270px;
+    top: 290px;
 }
 .abbbbbo{
     position: absolute;
@@ -178,7 +200,7 @@ body{
 }
 .d_id{
     position: absolute;
-    left: 790px;
+    left: 785px;
     top: 1470px; 
 }
 .s_id{
@@ -196,71 +218,71 @@ body{
     left: 1330px;
     top: 1300px;
 }
-.end{
-    height: 750px;
-    width: 1863px;
-    background-color: rgb(228, 236, 236);
+.contact{
+    height: 755px;
+    width: 1864px;
+    background-color: rgb(219, 228, 228);
 }
 .otho{
     position: absolute;
     left: 1750px;
-    top: -5px;
+    top: 0px;
 }
 .erso{
     position: absolute;
     left: 1650px;
-    top: -5px;
+    top: 0px;
 }
 .shishi{
-    color: aliceblue;
-    background-color:  rgb(18, 128, 192);
-    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(73, 138, 192);
+    height: 45px;
     width: 1863px;
 }
 .orso{
     position: absolute;
     left: 1520px;
-    top: 10px;
+    top: 15px;
 }
 .irso{
     position: absolute;
     left: 1420px;
-    top: 10px;
+    top: 15px;
     
 }
 .urso{
     position: absolute;
     left: 1320px;
-    top: 10px;
+    top: 15px;
     
 }
 .orsi{
     position: absolute;
     left: 1520px;
-    top: 1560px;
+    top: 1550px;
     
 }
 .irsu{
     position: absolute;
     left: 1420px;
-    top: 1560px;
+    top: 1550px;
     
 }
 
 .ursy{
     position: absolute;
     left: 1320px;
-    top: 1560px;
+    top: 1550px;
 }
 .log{
     height: 40px;
     width: 40px;
     left: 50px;
-    top: 5px;
+    top: 2px;
     position: absolute;
 }
 .logo{
-    height: 40px;
+    height:40px;
     width: 40px;
     left: 50px;
     top: 1535px;
@@ -277,13 +299,13 @@ body{
     color: aliceblue;
 }
 .orsi{
-    color: black;
+    color: rgb(15, 15, 15);
 }
 .irsu{
-    color: black;
+    color: rgb(15, 15, 15);
 }
 .ursy{
-    color: black;
+    color: rgb(15, 15, 15);
 }
 .orso{
     text-decoration: none;
@@ -308,5 +330,95 @@ body{
     left: 990px;
     top: 1470px;
 }
+.somes{
+    color: rgb(34, 32, 32);
+}
+.end{
+    background-color: rgb(211, 219, 219);
+    height: 165px;
+    width: 1864px;
+}
+.HI{
+    color: beige;
+    
+}
+.hi{
+    position: absolute;
+    left: 695px;
+    top: 100px;
+    height: 500px;
+    width: 450px;
+    background-color: rgb(16, 125, 197);
+}
+.hio{
+    position: absolute;
+    left: 160px;
+    top: 160px;
+    height: 200px;
+    width: 380px;
+    background-color: rgb(24, 128, 189);
+}
+.hioo{
+    position: absolute;
+    left: 1360px;
+    top: 160px;
+    height: 200px;
+    width: 380px;
+    background-color: rgb(24, 128, 189);
+}
+.hipoo{
+    position: absolute;
+    left: 0px;
+    top: 1525px;
+    height: 52px;
+    width: 1864px;
+    background-color: rgb(187, 194, 196);
+}
+.orso:hover{
+    color: rgb(189, 193, 196);
+}
+.irso:hover{
+    color: rgb(189, 193, 196);
+}
+.urso:hover{
+    color: rgb(189, 193, 196);
+}
+.orsi:hover{
+    color: rgb(147, 150, 153);
+}
+.irsu:hover{
+    color: rgb(147, 150, 153);
+}
+.ursy:hover{
+    color: rgb(147, 150, 153);
+}
+.orso:active{
+    color: rgb(111, 157, 192);
+}
+.irso:active{
+    color: rgb(111, 157, 192);
+}
+.urso:active{
+    color: rgb(111, 157, 192);
+}
+.orsi:active{
+    color: rgb(111, 157, 192);
+}
+.irsu:active{
+    color: rgb(111, 157, 192);
+}
+.ursy:active{
+    color: rgb(111, 157, 192);
+}
+.hipooo{
+    position: absolute;
+    background-color: rgb(202, 212, 211);
+    height: 144px;
+    width: 315px;
+    left: 770px;
+    top: 1372px;
+    
+}
+
 
 
